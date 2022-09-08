@@ -1,15 +1,20 @@
 #lab_form{
 	margin:100px;
+	box-shadow: 2px black;
+	margin-left: 200px;
+	margin-right: 200px;
+	height: 500px;;
 	
 }
 #form_col{
-	width:55%;
+	width:60%;
 	text-align:left;
 	vertical-align:top;
+	padding: 0px 0px 0px 30px;
 	
 }
 #img_col{
-	width:45%;
+	width:40%;
 }
 #lab_head{
 	font-size:25px;
@@ -45,9 +50,10 @@
 #form_cell{
 	height:500px;
 	overflow-y:scroll;
+	
 }
 #buttons{
-	background:steelblue;
+	background:rgb(136, 100, 221);
 	color:white;
 	font-size:25px;
 	margin:10px;
@@ -58,4 +64,17 @@
 #submit_area{
 	text-align:center;
 	margin-bottom:50px;
+}
+
+.input_fld{
+	border: white solid;
+	border-bottom: black solid 1px;
+	height: 30px; width: 400x;
+	margin-bottom: 50px;
+}
+
+#lab_form{
+	border: 10px;
+	border-style: ridge;
+
 }

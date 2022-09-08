@@ -11,48 +11,49 @@
 <header>
 <h1 id="header1">Pharmacy</h1>
 </header>
-
+	
 <ul id="navbar" style="z-index:999;">
-		<li><a class="active" href="home.html" style="width:130px;padding-left:50px;text-align:right;">Home</a></li>
-		<li class="dropdown">
-			<a class="dropbtn" href="javascript:void(0)" style="width:100px;text-align:middle;">Our Medicines</a>
-			<div class="dropdown-content">
-				<a href="#">Fever</a>
-				<a href="#">Muscle Pains</a>
-				<a href="#">Cold and Cough</a>
-			</div>
-		</li>
-		<li class="dropdown">
-			<a class="dropbtn" href="javascript:void(0)" style="width:80px;text-align:middle;">Healthcare</a>
-			<div class="dropdown-content">
-				<a href="#">Baby Care</a>
-				<a href="#">Skin Care</a>
-				<a href="#">Home Care</a>
-				<a href="#">Personal Care</a>
-				<a href="#">Pet Care</a>
-			</div>
-		</li>
-		<li><a href="lab.html" style="width:75px;text-align:middle;">Lab Test</a></li>
-		<li><a href="" style="width:770px;text-align:right;height:14px;" id="dis" disabled></a></li>
-	</ul>
+	<li><a class="active" href="home.html" style="width:100px;padding-left:50px;text-align:right;">Home</a></li>
+	<li class="dropdown">
+		<a class="dropbtn" href="javascript:void(0)" style="width:117px;text-align:middle;">Our Medicines</a>
+		<div class="dropdown-content">
+			<a href="#">Fever</a>
+			<a href="#">Muscle Pains</a>
+			<a href="#">Cold and Cough</a>
+		</div>
+	</li>
+	<li class="dropdown">
+		<a class="dropbtn" href="javascript:void(0)" style="width:117px;text-align:middle;">Healthcare</a>
+		<div class="dropdown-content">
+			<a href="#">Baby Care</a>
+			<a href="#">Skin Care</a>
+			<a href="#">Home Care</a>
+			<a href="#">Personal Care</a>
+			<a href="#">Pet Care</a>
+		</div>
+	</li>
+	<li><a href="lab.html" style="width:100px;text-align:middle;">Lab Test</a></li>
+	<li><a href="" style="width:894px;text-align:right;height:15px;pointer-events:none;" id="dis" disabled></a></li>
+</ul>
 
+<div id="q">
 <table id="lab_form">
-<tr  style="height:500px;">
+<tr  style="height:500px; ">
 <th id="form_col">
 <div id="form_cell">
 <form>
 <h4 id="lab_head">1) Contact Details:</h4>
-<input type="text" name="name" id="name" class="input_fld">
-<input type="text" name="pid" id="pid" class="input_fld"><br>
-<input type="text" name="contact" id="contact" class="input_fld">
-<input type="text" name="email" id="email" class="input_fld">
+<input type="text" name="name" id="name" class="input_fld" placeholder="Enter your name" class="inputfld">
+<input type="text" name="pid" id="pid" class="input_fld" placeholder="Enter patient ID" class="inputfld"><br>
+<input type="text" name="contact" id="contact" class="input_fld" placeholder="Enter your phone number" class="inputfld">
+<input type="text" name="email" id="email" class="input_fld" placeholder="Enter your email ID" class="inputfld">
 
 
 
 <h4 id="lab_head">2) Address:</h4>
-<input type="text" name="h_no" id="h_no" class="input_fld">
-<input type="text" name="street" id="street" class="input_fld"><br>
-<input type="text" name="area" id="area" class="input_fld"><br>
+<input type="text" name="h_no" id="h_no" class="input_fld" placeholder="House No." class="inputfld">
+<input type="text" name="street" id="street" class="input_fld" placeholder="Street" class="inputfld"><br>
+<input type="text" name="area" id="area" class="input_fld" placeholder="Area" class="inputfld"><br>
 <label for="district" id="dist" >District</label>
 <select id="district" name="district" style="font-size:15px;">
 <option value="none" id="dropdown">Selection</option>
@@ -90,7 +91,7 @@
 <img src="Images\Lab-Test\lab-test.jpg" height="500px" width="550px";>
 </th>
 </tr>
-</table>
+</table></div>
 
 <div id="submit_area">
 <button type="reset" id="buttons">Reset</button>
