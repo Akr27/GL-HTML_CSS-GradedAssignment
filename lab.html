@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="home_style.css">
+<link rel="stylesheet" type="text/css" href="lab_style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<title>Pharmacy: Lab Test</title>
+</head>
+
+<body>
+<header>
+<h1 id="header1">Pharmacy</h1>
+</header>
+
+<ul id="navbar" style="z-index:999;">
+		<li><a class="active" href="home.html" style="width:130px;padding-left:50px;text-align:right;">Home</a></li>
+		<li class="dropdown">
+			<a class="dropbtn" href="javascript:void(0)" style="width:100px;text-align:middle;">Our Medicines</a>
+			<div class="dropdown-content">
+				<a href="#">Fever</a>
+				<a href="#">Muscle Pains</a>
+				<a href="#">Cold and Cough</a>
+			</div>
+		</li>
+		<li class="dropdown">
+			<a class="dropbtn" href="javascript:void(0)" style="width:80px;text-align:middle;">Healthcare</a>
+			<div class="dropdown-content">
+				<a href="#">Baby Care</a>
+				<a href="#">Skin Care</a>
+				<a href="#">Home Care</a>
+				<a href="#">Personal Care</a>
+				<a href="#">Pet Care</a>
+			</div>
+		</li>
+		<li><a href="lab.html" style="width:75px;text-align:middle;">Lab Test</a></li>
+		<li><a href="" style="width:770px;text-align:right;height:14px;" id="dis" disabled></a></li>
+	</ul>
+
+<table id="lab_form">
+<tr  style="height:500px;">
+<th id="form_col">
+<div id="form_cell">
+<form>
+<h4 id="lab_head">1) Contact Details:</h4>
+<input type="text" name="name" id="name" class="input_fld">
+<input type="text" name="pid" id="pid" class="input_fld"><br>
+<input type="text" name="contact" id="contact" class="input_fld">
+<input type="text" name="email" id="email" class="input_fld">
+
+
+
+<h4 id="lab_head">2) Address:</h4>
+<input type="text" name="h_no" id="h_no" class="input_fld">
+<input type="text" name="street" id="street" class="input_fld"><br>
+<input type="text" name="area" id="area" class="input_fld"><br>
+<label for="district" id="dist" >District</label>
+<select id="district" name="district" style="font-size:15px;">
+<option value="none" id="dropdown">Selection</option>
+<option value="District_1" id="dropdown">District 1</option>
+<option value="District_2" id="dropdown">District 2</option>
+<option value="District_3" id="dropdown">District 3</option>
+<option value="District_4" id="dropdown">District 4</option>
+</select><br>
+<label for="test" id="test"><h4 id="lab_head">3) Test Type:</h4></label>
+<select id="test" name="test" style="font-size:15px;margin:10px 20px 10px 0px;">
+<option value="none" id="dropdown">Selection</option>
+<option value="CBC" id="dropdown">CBC</option>
+<option value="Complete_Urine" id="dropdown">Complete Urine</option>
+<option value="TSH" id="dropdown">Thyroid Stimulating Hormone(TSH)</option>
+<option value="Glucose_Test" id="dropdown">Glucose Test</option>
+</select><br>
+<h4 id="lab_head" style="margin-top:40px;">4) Details:</h4>
+<label for="hcopy" id="hcopy" >Do you want a hard copy of the report?</label><br>
+<select id="hcopy" name="hcopy" style="font-size:15px;margin-bottom:30px;">
+<option value="none" id="dropdown">Selection</option>
+<option value="Yes" id="dropdown">Yes</option>
+<option value="No" id="dropdown">No</option>
+</select><br>
+<h6 id="select">Select your comfortable Date and Time:</h6><br>
+<label for="start" id="start" style="font-weight:lighter;font-size:16px;">Select a Date:</label>
+<input type="date" id="start" name="start"
+       value="2022-09-07"
+       min="2022-09-07" max="2050-12-31" style="font-size:15px;margin-bottom:30px;"><br>
+<label for="appt" id="appt" style="font-weight:lighter;font-size:16px;">Select a time:</label>
+<input type="time" id="appt" name="appt" style="font-size:15px;margin-bottom:30px;">
+</form>
+</div>
+</th>
+<th id="img_col"  style="height:500px;">
+<img src="Images\Lab-Test\lab-test.jpg" height="500px" width="550px";>
+</th>
+</tr>
+</table>
+
+<div id="submit_area">
+<button type="reset" id="buttons">Reset</button>
+<button type="submit" id="buttons">Submit</button>
+</div>
+<footer>@copyright. Only for demonstration purposes</footer>
+</body>
+</html>

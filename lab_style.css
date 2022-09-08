@@ -1,0 +1,61 @@
+#lab_form{
+	margin:100px;
+	
+}
+#form_col{
+	width:55%;
+	text-align:left;
+	vertical-align:top;
+	
+}
+#img_col{
+	width:45%;
+}
+#lab_head{
+	font-size:25px;
+	margin:20px;
+	margin-left:0px;
+	
+}
+.input_fld{
+	margin:10px;
+	width:200px;
+	height:20px;
+}
+#dist,#district,#test,#hcopy{
+	margin:10px;
+	font-size:20px;
+	width:120px;
+	height:25px;
+	
+}
+#dropdown{
+	font-size:15px;
+}
+#start,#hcopy,#appt{
+	font-size:20px;
+	margin:10px;
+	margin-top:15px;
+}
+#select,#appt{
+	margin:10px;
+	margin-bottom:0px;
+	font-size:20px;
+}
+#form_cell{
+	height:500px;
+	overflow-y:scroll;
+}
+#buttons{
+	background:steelblue;
+	color:white;
+	font-size:25px;
+	margin:10px;
+	padding:5px 10px;
+	border-color:white;
+	border-radius:10px;
+}
+#submit_area{
+	text-align:center;
+	margin-bottom:50px;
+}
